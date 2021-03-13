@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+html(lang="ru")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        title trenazh
+        meta(property="og:type" content="website")
+        meta(property="og:url" content)
+        meta(property = "og:title" content)
+        meta(property = "og:image" content)
+        meta(property = "og:description" content)
+        meta(property = "og:keywords" content)
+        meta(property = "og:image:width" content)
+        meta(property = "og:image:height" content)
+        <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+        <script src="https://kit.fontawesome.com/04950599df.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&display=swap" rel="stylesheet">
+        include _styles.pug
+        include _scripts.pug
+    body
+        include assets/images/sprite.svg
+        .wrapper
+            include components/header/header.pug
+            include components/main/main.pug

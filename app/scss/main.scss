@@ -1,0 +1,25 @@
+@import '_vars';
+@import '_func';
+@import '_fonts';
+@import '_reset';
+
+/**
+ * Main Styles
+ */
+@import '_global';
+
+/**
+ * Elements
+ */
+// @import '../elements/title/title'; 
+
+
+/**
+ * Components
+ */
+
+@import '../components/header/header';
+@import '../components/main/main';
+
+
+

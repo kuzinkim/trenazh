@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Blogger Sans';
+    src: url('BloggerSans.woff2') format('woff2'),
+        url('BloggerSans.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Blogger Sans';
+    src: url('BloggerSans-Bold.woff2') format('woff2'),
+        url('BloggerSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
